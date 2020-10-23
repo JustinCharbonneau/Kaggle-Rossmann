@@ -1,7 +1,7 @@
 Kaggle-Rossman
 ==============================
 
-Explore XGBoost for Regression on Kaggle-Rossman and Entity Embeddings in PyTorch.
+Tabular data is the bread and butter of data science projects. This repo explores XGBoost for regression which is an algorithm that is well-known by the community and is known to perform really well on tabular data. I also explored further by transforming the categorical variables using the method of Entity Embeddings which was published in a paper in 2016. Check it out on [arXiv](https://arxiv.org/abs/1604.06737).
 
 
 ## Summary Results
@@ -14,8 +14,6 @@ Private score and puplic score were retreived after submitting the predictions t
 | 002           | Target encoder        | XGBoost  | XGBoost  | Log transform         | HyperOpt (100)        | TimeSeriesSplit k = 3  | 0.13975       | 0.12481
 | 003           | Entity Embeddings     | #NAN#    | FastAI   | Log transform         | Default               | No                     | 0.15251       | 0.14079
 | 004           | Entity Embeddings     | #NAN#    | FastAI   | Log transform         | HyperOpt (100)        | TimeSeriesSplit k = 3  | 0.13081       | 0.11572
-
-
 
 
 Project Organization
